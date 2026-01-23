@@ -1,1 +1,0 @@
-# kaylavelasc.github.io
