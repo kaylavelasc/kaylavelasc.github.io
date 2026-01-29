@@ -1,15 +1,56 @@
-<!DOCTYPE html> # document type declaration
-<html> # HTML document begins with this..
+<!DOCTYPE html> <!--document type declaration-->
+<html> <!--HTML document begins with this..--> 
+<head> 
+<div
+    style="
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    "> <!--div is used to divide sections where you're applying styles-->
+    <div>
+        <h1>Guides from a<br> Gadget Tutor!</h1>
+    </div> <!--div divides the text in between with new line before and after text-->
+</div>
+</head>
 
-<body> # visible part of the document
 
-<h1>Testing GitHub Pages!</h1>
-<p>I'm going to be setting up a github website
-    for my gadget tutoring clients to refer to.
+<style> 
+    body{
+        background-color:blue
+    }
+    button{
+        background-color:purple
+    }
+</style>
+
+<body> <!--# visible part of the document-->
+    <h3>Tutorials for Joselyn Adult Center:</h3>
+    <h5> Quick links</h5>
+
+    <form
+        action="www.google.com"
+        target="_blank"
+    > 
+        <input type="sumbit" value ="How to send a text">
+        <!--Input parameters are...
+            target attribute displays where to display reponse after submitting form
+                one parameter: _blank, _self, _parent, _top, framename-->
+    </form>
+    <!--Here I want to add a button-->
+    <button type="button">How to send a text</button>
+    <!--The type keyword specifies to websites what type of button it is for <button> elements.
+            There are three button types: button, submit, reset
+        For <input> elements, the type keyword specifies what type of input it is
+            Examples for <input>: text, lname
+        This is NOT just for readability, these are keywords-->
     <br>
-    Let's try pushing.
+        <a href="https://www.google.com">Google</a>
+    <p>How to send an email</p>
+        <a href="https://www.youtube.com">Youtube</a>
 </p>
 
 </body>
 
-</html> # and ends with this
+</html> <!--and ends with this-->
