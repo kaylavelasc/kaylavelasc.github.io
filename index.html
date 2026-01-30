@@ -1,68 +1,51 @@
 <!DOCTYPE html> <!--document type declaration-->
 <html> <!--HTML document begins with this..--> 
-<head> 
-<div
-    style="
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    "> <!--div is used to divide sections where you're applying styles-->
-    <div>
-        <h1>Guides from a<br> Gadget Tutor!</h1>
-    </div> <!--div divides the text in between with new line before and after text-->
-</div>
-</head>
+    <head> 
+        <div
+            style="
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            ">
+                <h1>Menu</h1>
+        </div>
+
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+
+    </head>
 
 
-<style> 
-    h1{
-        color:black
-    }
-    body{
-        background-color:rgb(218, 192, 129)
-    }
-    button{
-        background-color:rgb(189, 134, 24);
-        border:5;
-        border-radius:5px;
-    }
-    text{
-        color:black
-    }
-</style>
-<!--style is where you add all the colors and customizations for each section of your website-->
 
-<body> <!--# visible part of the document-->
-    <h3>Tutorials for Joselyn Adult Center:</h3>
-    <h5> Quick links</h5>
+    <body>
+        <style> 
+            *{
+                color:black;
+                text-align:center;
+                font-family: Amatic SC
+            }
+            body{
+                background-color:pink
+            }
+            button{
+                background-color:rgb(234, 171, 45);
+                border:10;
+                border-radius:5px;
+                justify-content:center;
+                margin-bottom:20px;
+                font-size:20px
+            }
+        </style>
+        <button type="button">
+            <a href="guides.html">
+                Gadget Tutor Guides
+            </a>
+        </button><br>
+        <button type="button">Projects</button><br>
+        <button type="button">Youtube</button><br>
+        <button type="button">Blog</button><br>
+        
+    </body>
 
-    <!-- <form
-        action="www.google.com"
-        target="_blank"
-    >  -->
-    <!--Items contained inside the <> signs are attributes
-            An attribute is a "quality, characteristic, or character ascribed to someone or something"-->
-        <!-- <input type="sumbit" value ="How to send a text"> -->
-        <!--Input parameters are...
-            target attribute displays where to display reponse after submitting form
-                one parameter: _blank, _self, _parent, _top, framename-->
-    <!-- </form> -->
-    <!--Here I want to add a button-->
-    <button type="button">How to send a text on Android</button>
-    <!--The type keyword specifies to websites what type of button it is for <button> elements.
-            There are three button types: button, submit, reset
-        For <input> elements, the type keyword specifies what type of input it is
-            Examples for <input>: text, lname
-        This is NOT just for readability, these are keywords-->
-    <br>
-    <br> 
-    <button type="button">
-        How to send an email on your phone
-    </button>
-</p>
-
-</body>
-
-</html> <!--and ends with this-->
+</html>
