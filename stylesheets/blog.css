@@ -1,0 +1,31 @@
+
+body{
+    margin-left:20px;
+}
+
+button{
+    width:80px;
+    height:20px;
+    background-color:rgba(168, 98, 162, 0.611);
+    border-radius:10px;
+    border-color:rgb(207, 159, 159);
+    align-items:center;
+    justify-content:left;
+    font-size:10px;
+    margin-left:10px;
+}
+
+blog.title{
+    width:100px;
+    color:rgb(92, 26, 61);
+}
+
+blog.body{
+    width:400px;
+    height:150px;
+    border-radius: 10px;
+    padding:10px;
+    margin-top:5px;
+    background-color:rgb(180, 110, 188);
+    position:fixed
+}
